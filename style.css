@@ -87,7 +87,6 @@ li{
 }
 
 .main{
-
 }
 
 .section{
@@ -104,6 +103,8 @@ li{
   background-color: lavender;
   margin-top: 30px;
   padding: 30px;
+  bottom: 0;
+  width: 100%;
 }
 
 .overlay1, .overlay2, .overlay3{
