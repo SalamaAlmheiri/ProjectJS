@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Caveat:wght@700&family=Montserrat:wght@300&display=swap');
+
+html{
+  font-size: 16px;
+  font-family: helvitica, sans-serif;
+}
+
+body, ul{
+  margin:0
+  padding:0;
+}
+
+ul{
+  list-style: none;
+}
+
+body{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+a:hover{
+  color:blue;
+  background-color: lightgrey;
+}
+
+li{
+  padding: 7px;
+}
+
+#header{
+  width: 100%;
+  top: 0;
+  text-align: center;
+  position: fixed;
+  background-color: lightblue;
+  padding: 10px;
+  font-size: 1.7em;
+  height:60px;
+}
+
+#header-under{
+  color: white;
+  font-family: 'Alfa Slab One', cursive;
+  width: 100%;
+  top: 0;
+  text-align: center;
+  position: absolute;
+  background-color: darkseagreen;
+  padding: 10px;
+  font-size: 1.7em;
+  height:60px;
+}
+
+#header-under:hover{
+  color: black;
+}
+
+.wrapper{
+  display: inline-block;
+  text-align: left;
+
+  min-width: 600px;
+  max-width: 900px;
+  margin: 80px 50px 0 50px;
+}
+
+.container{
+  display: flex;
+}
+
+.sidebar{
+  margin-left: 30px;
+  padding: 20px;
+  background-color: beige;
+}
+
+#popup1{
+}
+#popup2{
+}
+#popup3{
+}
+
+.main{
+
+}
+
+.section{
+  margin-bottom: 35px;
+  padding: 35px;
+  background-color: lightgrey;
+}
+
+.section:hover{
+  background-color: grey;
+}
+
+.footer{
+  background-color: lavender;
+  margin-top: 30px;
+  padding: 30px;
+}
+
+.overlay1, .overlay2, .overlay3{
+  border-radius: 30px;
+  border-style: solid;
+  border-color: lightblue;
+  display: none;
+  position: fixed;
+  text-align: center;
+  width: 50%;
+  height: 50%;
+  background-color: cornsilk;
+  top: 30%;
+  left:30%;
+}
+
+.overlay1:hover, .overlay2:hover, .overlay3:hover{
+  background-color: lightblue;
+}
+
+.title{
+  margin-top: 20px;
+  font-size: 2em;
+}
+
+.images{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 800px;
+  margin: 10px;
+  padding: 30px;
+}
